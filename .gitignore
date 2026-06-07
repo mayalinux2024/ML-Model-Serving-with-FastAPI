@@ -1,0 +1,72 @@
+# Python Virtual Environment
+
+venv/
+.venv/
+env/
+
+# Python Cache
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks
+
+.ipynb_checkpoints/
+
+# Distribution / Packaging
+
+build/
+dist/
+*.egg-info/
+
+# Logs
+
+*.log
+
+# Environment Variables
+
+.env
+.env.*
+
+# IDE Settings
+
+.vscode/
+.idea/
+
+# macOS
+
+.DS_Store
+
+# Windows
+
+Thumbs.db
+
+# Pytest
+
+.pytest_cache/
+
+# Coverage Reports
+
+.coverage
+htmlcov/
+
+# Model Artifacts (optional)
+
+# Uncomment if models become large
+
+# *.pkl
+
+# *.joblib
+
+# models/
+
+# Docker
+
+docker-compose.override.yml
+
+# Temporary Files
+
+*.tmp
+*.swp
+*~
